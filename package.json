@@ -1,0 +1,16 @@
+{
+  "name": "WebServer",
+  "version": "0.0.0",
+  "description": "WebServer",
+  "main": "server.js",
+  "author": {
+    "name": "e579647",
+    "email": ""
+  },
+  "dependencies": {
+    "express": "4.13.4"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
