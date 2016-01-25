@@ -1,4 +1,8 @@
-﻿var express = require('express');
+﻿/*
+ * MY FIRST EXPRESS SERVER
+ */ 
+
+var express = require('express');
 var app = express();
 var port = process.env.port || 3000;
 
