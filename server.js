@@ -4,7 +4,7 @@
 
 var express = require('express');
 var app = express();
-var port = process.env.port || 3000;
+var PORT = process.env.PORT || 3000;
 
 // (1) Instantiate my middleware object
 var middleware = require('./myMiddleware.js');
@@ -22,7 +22,7 @@ app.get('/about', middleware.requireAuthentication, function (req, res) {
 app.use(express.static(__dirname + '/public'));
 
 app.listen(port, function () { 
-    console.log("Express server is running on port: " + port);
+    console.log("Express server is running on port: " + PORT);
 });
 
 
